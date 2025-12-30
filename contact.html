@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Rockholt Communications</title>
+  <meta name="description" content="Contact Rockholt Communications for custom domain email, DNS migration, or a simple website." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand"><div class="logo" aria-hidden="true"></div><div>Rockholt Communications</div></div>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="btn secondary" style="padding:8px 12px;">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container hero">
+  <section class="card card-pad">
+    <h1>Contact</h1>
+    <p>
+      Tell us what you’re trying to accomplish. Include your domain name and whether email is already working.
+    </p>
+
+    <hr class="sep"/>
+
+    <div class="grid3">
+      <div class="tile" style="grid-column: span 2;">
+        <h3>Email us</h3>
+        <p>
+          <a class="btn" href="mailto:admin@rockholt.com?subject=Rockholt%20Communications%20Inquiry&body=Domain%3A%20%0AWhat%20you%27re%20trying%20to%20do%3A%20%0ACurrent%20registrar%3A%20%0ACurrent%20DNS%20provider%3A%20%0AEmail%20provider%3A%20%0AAny%20deadlines%3A%20">
+            admin@rockholt.com
+          </a>
+        </p>
+        <p class="small">Use the email address above for inquiries.</p>
+
+        <div class="note" style="margin-top:12px;">
+          <strong>Tip:</strong> If you’re migrating off legacy hosting, mention whether you have access to the existing website files (FTP/SFTP) or whether a rebuild is preferred.
+        </div>
+      </div>
+
+      <div class="tile">
+        <h3>What to include</h3>
+        <ul class="list">
+          <li>Domain name</li>
+          <li>Who hosts DNS</li>
+          <li>Email provider</li>
+          <li>Do you need a website?</li>
+          <li>Any constraints</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container small">
+    © <span id="y"></span> Rockholt Communications · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>

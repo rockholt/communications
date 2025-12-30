@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rockholt Communications — Reliable Email & Simple Web Services</title>
+  <meta name="description" content="Rockholt Communications provides custom domain email and simple web services with clear pricing and human support." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <div>Rockholt Communications</div>
+    </div>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="btn secondary" style="padding:8px 12px;">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container hero">
+  <div class="hero-grid">
+    <section class="card card-pad">
+      <div class="kicker"><span>Simple.</span> Secure email & web that just works.</div>
+      <h1>Reliable email, clean web presence, and support you can actually reach.</h1>
+      <p>
+        Rockholt Communications helps families, small businesses, and organizations use their own domain
+        with professional email and a lightweight website—without confusing bundles or surprise costs.
+      </p>
+      <p>
+        The goal is boring reliability: strong security defaults, clear documentation, and steady support.
+      </p>
+
+      <div class="btnrow">
+        <a class="btn" href="services.html">See services</a>
+        <a class="btn secondary" href="pricing.html">View pricing</a>
+        <a class="btn secondary" href="contact.html">Get started</a>
+      </div>
+
+      <hr class="sep" />
+
+      <div class="grid3">
+        <div class="tile">
+          <h3>Custom domain email</h3>
+          <p>Professional addresses (you@yourdomain.com) with modern security and admin clarity.</p>
+        </div>
+        <div class="tile">
+          <h3>Fast, simple websites</h3>
+          <p>Static, modern sites that load quickly and don’t require server babysitting.</p>
+        </div>
+        <div class="tile">
+          <h3>Human support</h3>
+          <p>Clear answers, reasonable timelines, and help that’s focused on outcomes.</p>
+        </div>
+      </div>
+    </section>
+
+    <aside class="card card-pad">
+      <h2>What we optimize for</h2>
+      <ul class="list">
+        <li>Clear ownership of domains and DNS</li>
+        <li>Secure defaults (SPF/DKIM/DMARC where applicable)</li>
+        <li>Low-maintenance hosting and predictable costs</li>
+        <li>Documentation so you’re never trapped</li>
+      </ul>
+
+      <div class="badges" aria-label="Highlights">
+        <div class="badge">DNS & migrations</div>
+        <div class="badge">Email deliverability</div>
+        <div class="badge">Security-first setup</div>
+        <div class="badge">No bloat</div>
+      </div>
+
+      <hr class="sep" />
+
+      <div class="note">
+        <strong>Quick start:</strong><br/>
+        If you already own a domain, we can usually stand up email + a basic website with minimal downtime.
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="small">
+      © <span id="y"></span> Rockholt Communications. All rights reserved.
+      · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

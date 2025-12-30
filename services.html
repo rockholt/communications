@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services — Rockholt Communications</title>
+  <meta name="description" content="Custom domain email, DNS management, and simple web services with human support." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand"><div class="logo" aria-hidden="true"></div><div>Rockholt Communications</div></div>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="btn secondary" style="padding:8px 12px;">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container hero">
+  <section class="card card-pad">
+    <h1>Services</h1>
+    <p>Practical, low-maintenance setups with clear ownership and security-first defaults.</p>
+
+    <hr class="sep"/>
+
+    <div class="grid3">
+      <div class="tile">
+        <h3>Custom Domain Email</h3>
+        <p>Mailbox setup, DNS configuration, and deliverability alignment.</p>
+        <ul class="list">
+          <li>MX, SPF, DKIM, DMARC configuration</li>
+          <li>Migration from legacy providers</li>
+          <li>Alias and group planning</li>
+          <li>Basic admin documentation</li>
+        </ul>
+      </div>
+
+      <div class="tile">
+        <h3>DNS & Domain Management</h3>
+        <p>Clean DNS configuration and safe cutovers.</p>
+        <ul class="list">
+          <li>Cloudflare DNS onboarding</li>
+          <li>Nameserver changes and validation</li>
+          <li>Record hygiene (remove legacy bloat)</li>
+          <li>Optional DNSSEC enablement post-migration</li>
+        </ul>
+      </div>
+
+      <div class="tile">
+        <h3>Simple Websites</h3>
+        <p>Fast, static sites that don’t require server maintenance.</p>
+        <ul class="list">
+          <li>Basic multi-page site build</li>
+          <li>HTTPS by default</li>
+          <li>Contact links/forms (simple)</li>
+          <li>Content updates and refreshes</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="sep"/>
+
+    <div class="note">
+      <strong>What we don’t do:</strong> complicated “agency” retainers, opaque upsells, or fragile systems that require constant babysitting.
+      The priority is reliable foundations and clear ownership.
+    </div>
+
+    <div class="btnrow" style="margin-top:16px;">
+      <a class="btn" href="pricing.html">See pricing</a>
+      <a class="btn secondary" href="contact.html">Request a consult</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container small">
+    © <span id="y"></span> Rockholt Communications · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>

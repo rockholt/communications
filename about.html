@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Rockholt Communications</title>
+  <meta name="description" content="About Rockholt Communications: security-first setups, clean DNS, and reliable email without bloat." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand"><div class="logo" aria-hidden="true"></div><div>Rockholt Communications</div></div>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="btn secondary" style="padding:8px 12px;">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container hero">
+  <section class="card card-pad">
+    <h1>About</h1>
+    <p>
+      Rockholt Communications exists to make the “basic internet plumbing” boring again:
+      domains, DNS, email, and simple websites that keep working quietly.
+    </p>
+
+    <hr class="sep"/>
+
+    <h2>Our philosophy</h2>
+    <ul class="list">
+      <li><strong>Clarity:</strong> you own your domain and your credentials.</li>
+      <li><strong>Security-first:</strong> safe defaults, minimal attack surface.</li>
+      <li><strong>Maintainability:</strong> fewer moving parts beats fancy dashboards.</li>
+      <li><strong>Transparency:</strong> clear scope, clear pricing, clear handoff.</li>
+    </ul>
+
+    <hr class="sep"/>
+
+    <h2>How we work</h2>
+    <p>
+      We start by mapping what you have (domain registrar, DNS, email provider, old hosting),
+      then we move one layer at a time—email and DNS validated before any legacy systems are retired.
+    </p>
+
+    <div class="note" style="margin-top:12px;">
+      This site is intentionally lightweight and hosted on Cloudflare Pages for speed, reliability, and low maintenance.
+    </div>
+
+    <div class="btnrow" style="margin-top:16px;">
+      <a class="btn" href="contact.html">Contact</a>
+      <a class="btn secondary" href="services.html">Services</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container small">
+    © <span id="y"></span> Rockholt Communications · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
